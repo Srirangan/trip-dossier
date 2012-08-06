@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Trip - Trip Dossier</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./libs/jquerymobile/min.css"/>
+  <script src="./libs/jquery/min.js"></script>
+  <script src="./libs/jquerymobile/min.js"></script>
+</head>
+<body>
+
+<div id="addTrip" data-role="page" data-title="Add Trip">
+  <!--<div data-role="header">-->
+    <!--<h3>Add new trip</h3>-->
+  <!--</div>-->
+  <div data-role="content">
+    <form>
+      <ul data-role="listview">
+        <li data-theme="b">
+          <h1>Where</h1>
+          <p>Destinations / cities</p>
+        </li>
+        <li data-role="fieldcontain">
+          <input type="text" data-mini="true" placeholder="Destination 1"/>
+        </li>
+        <li data-role="fieldcontain">
+          <input type="text" data-mini="true" placeholder="Destination 2"/>
+        </li>
+        <li>
+          <input type="button" data-icon="plus" data-mini="true" data-inline="true" value="Add"/>
+        </li>
+        <li data-theme="b">
+          <h1>When</h1>
+          <p>Start and end dates</p>
+        </li>
+        <li data-role="fieldcontain">
+          <input type="date" data-mini="true"/>
+        </li>
+        <li data-role="fieldcontain">
+          <input type="date" data-mini="true"/>
+        </li>
+      </ul>
+    </form>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar" data-iconpos="left">
+      <ul>
+        <li><a href="mytrips.html" data-icon="grid">My trips</a></li>
+        <li><a href="mytrips.html" data-icon="check" data-theme="b">Save trip</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
