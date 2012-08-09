@@ -12,12 +12,5 @@ public class MainActivity extends Activity {
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.main);
-
-    WebView webView = (WebView) findViewById(R.id.webView);
-    webView.getSettings().setJavaScriptEnabled(true);
-    webView.getSettings().setAllowFileAccess(true);
-    webView.getSettings().setAllowContentAccess(true);
-
-    webView.loadUrl("file:///android_asset/www/mytrips.html");
   }
 }
