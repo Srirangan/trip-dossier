@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">Trip Dossier</string>
+
+  <!-- app -->
+  <string name="appName">Trip Dossier</string>
+  <string name="appHelp">Help</string>
+  <string name="appSettings">Settings</string>
+
+  <!-- home -->
+  <string name="homeAllTrips">All Trips</string>
+  <string name="homeNewTrip">New Trip</string>
 </resources>
