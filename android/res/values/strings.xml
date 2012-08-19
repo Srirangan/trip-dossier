@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-  <!-- app -->
   <string name="appName">Trip Dossier</string>
   <string name="appHelp">Help</string>
   <string name="appSettings">Settings</string>
 
-  <!-- home -->
+  <string name="errorRequiredMissing">Required</string>
+  <string name="errorEmailInvalid">Invalid email</string>
+  <string name="errorPasswordInvalid">Invalid password</string>
+
+  <string name="homeLabel">Trip Dossier</string>
   <string name="homeAllTrips">All Trips</string>
   <string name="homeNewTrip">New Trip</string>
+  <string name="homeRegister">Signup for Trip Dossier</string>
+  <string name="homeLogin">Got an account? Login!</string>
+  <string name="homeFacebook">or, Connect with Facebook</string>
+
+  <string name="registerLabel">Signup for Trip Dossier</string>
+  <string name="registerInputEmailHint">Email</string>
+  <string name="registerInputPasswordHint">Password</string>
+  <string name="registerInputPasswordConfirmHint">Confirm password</string>
+  <string name="registerInputIAgreeText">I agree to Terms and Conditions</string>
+  <string name="registerSubmit">Submit</string>
+
+  <string name="loginLabel">Login to Trip Dossier</string>
+  <string name="loginInputEmailHint">Email</string>
+  <string name="loginInputPasswordHint">Password</string>
+  <string name="loginSubmit">Submit</string>
+
 </resources>

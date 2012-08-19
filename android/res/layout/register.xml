@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent" android:layout_height="fill_parent"
+              android:background="@drawable/background" android:orientation="vertical">
+
+  <EditText android:id="@+id/registerInputEmail"
+            android:hint="@string/registerInputEmailHint"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:inputType="textEmailAddress"/>
+
+  <EditText android:id="@+id/registerInputPassword"
+            android:hint="@string/registerInputPasswordHint"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:inputType="textPassword"/>
+
+  <EditText android:id="@+id/registerInputPasswordConfirm"
+            android:hint="@string/registerInputPasswordConfirmHint"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:inputType="textPassword"/>
+
+  <CheckBox android:id="@+id/registerInputIAgree"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/registerInputIAgreeText"/>
+
+  <Button android:id="@+id/registerSubmit"
+          android:text="@string/registerSubmit"
+          android:layout_height="wrap_content"
+          android:layout_width="fill_parent"
+          android:onClick="onSubmit"/>
+
+</LinearLayout>

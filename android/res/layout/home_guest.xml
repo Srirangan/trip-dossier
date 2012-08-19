@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:background="@drawable/background">
+
+  <!--suppress AndroidLintUselessParent -->
+  <LinearLayout android:layout_centerInParent="true" android:orientation="vertical"
+                android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <Button android:id="@+id/register"
+            android:text="@string/homeRegister"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:onClick="startRegisterActivity"/>
+    <Button android:id="@+id/facebook"
+            android:text="@string/homeFacebook"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"/>
+    <Button android:id="@+id/login"
+            android:text="@string/homeLogin"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:onClick="startLoginActivity"/>
+  </LinearLayout>
+
+</RelativeLayout>

@@ -4,20 +4,27 @@
           android:versionCode="1"
           android:versionName="1.0">
 
-  <!-- SDK -->
   <uses-sdk android:minSdkVersion="4" android:targetSdkVersion="16"/>
 
-  <!-- PERMISSIONS -->
   <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
   <uses-permission android:name="android.permission.INTERNET"/>
 
-  <!-- APPLICATION -->
   <application android:label="@string/appName" android:icon="@drawable/icon_launcher">
-    <activity android:name=".activities.HomeActivity" android:label="@string/appName">
+    <!-- home -->
+    <activity android:name=".activities.HomeActivity" android:label="@string/homeLabel">
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
         <category android:name="android.intent.category.LAUNCHER"/>
       </intent-filter>
+    </activity>
+    <!-- register -->
+    <activity android:name=".activities.RegisterActivity" android:label="@string/registerLabel">
+      <meta-data android:name="android.support.PARENT_ACTIVITY"
+                 android:value="com.tripdossier.activities.HomeActivity"/>
+    </activity>
+    <activity android:name=".activities.LoginActivity" android:label="@string/loginLabel">
+      <meta-data android:name="android.support.PARENT_ACTIVITY"
+                 android:value="com.tripdossier.activities.HomeActivity"/>
     </activity>
   </application>
 
