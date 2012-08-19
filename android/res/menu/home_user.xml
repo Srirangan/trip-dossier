@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-  <item android:id="@+id/homeNewTrip"
-        android:title="@string/homeNewTrip"
+  <item android:id="@+id/homeUserMenuItemNewTrip"
+        android:title="@string/homeUserMenuItemNewTrip"
         android:icon="@drawable/icon_android_new"
         android:showAsAction="always"/>
 
-  <item android:id="@+id/homeSettings"
-        android:title="@string/appSettings"
+  <item android:id="@+id/homeUserMenuItemSettings"
+        android:title="@string/appMenuItemSettings"
         android:icon="@drawable/icon_android_settings"
         android:showAsAction="never"/>
 
-  <item android:id="@+id/homeHelp"
-        android:title="@string/appHelp"
+  <item android:id="@+id/homeUserMenuItemHelp"
+        android:title="@string/appMenuItemHelp"
         android:icon="@drawable/icon_android_help"
         android:showAsAction="never"/>
 

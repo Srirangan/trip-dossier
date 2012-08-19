@@ -2,19 +2,18 @@
 <resources>
 
   <string name="appName">Trip Dossier</string>
-  <string name="appHelp">Help</string>
-  <string name="appSettings">Settings</string>
+  <string name="appMenuItemHelp">Help</string>
+  <string name="appMenuItemSettings">Settings</string>
 
   <string name="errorRequiredMissing">Required</string>
   <string name="errorEmailInvalid">Invalid email</string>
   <string name="errorPasswordInvalid">Invalid password</string>
 
   <string name="homeLabel">Trip Dossier</string>
-  <string name="homeAllTrips">All Trips</string>
-  <string name="homeNewTrip">New Trip</string>
-  <string name="homeRegister">Signup for Trip Dossier</string>
-  <string name="homeLogin">Got an account? Login!</string>
-  <string name="homeFacebook">or, Connect with Facebook</string>
+  <string name="homeUserMenuItemNewTrip">New Trip</string>
+  <string name="homeGuestMenuItemRegister">Signup for Trip Dossier</string>
+  <string name="homeGuestMenuItemLogin">Got an account? Login!</string>
+  <string name="homeGuestFacebook">or, Connect with Facebook</string>
 
   <string name="registerLabel">Signup for Trip Dossier</string>
   <string name="registerInputEmailHint">Email</string>

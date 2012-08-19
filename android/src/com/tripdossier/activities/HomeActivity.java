@@ -47,6 +47,13 @@ public class HomeActivity extends BaseActivity {
       case R.id.homeGuestMenuItemLogin:
         startLoginActivity(null);
         return true;
+      case R.id.homeGuestMenuItemHelp:
+      case R.id.homeUserMenuItemHelp:
+        return false;
+      case R.id.homeUserMenuItemNewTrip:
+        return true;
+      case R.id.homeUserMenuItemSettings:
+        return true;
       default:
         return super.onOptionsItemSelected(item);
     }
