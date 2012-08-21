@@ -7,7 +7,7 @@ import android.widget.EditText;
 import com.tripdossier.R;
 import com.tripdossier.models.Model;
 
-public class RegisterActivity extends BaseActivity {
+public class RegisterActivity extends BaseGuestActivity {
 
   @Override
   public void onCreate(Bundle savedInstanceState) {

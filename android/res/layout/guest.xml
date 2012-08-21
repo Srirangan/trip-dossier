@@ -7,16 +7,16 @@
   <LinearLayout android:layout_centerInParent="true" android:orientation="vertical"
                 android:layout_width="wrap_content" android:layout_height="wrap_content">
     <Button android:id="@+id/homeGuestRegister"
-            android:text="@string/homeGuestMenuItemRegister"
+            android:text="@string/guestMenuItemRegister"
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
             android:onClick="startRegisterActivity"/>
     <Button android:id="@+id/homeGuestFacebook"
-            android:text="@string/homeGuestFacebook"
+            android:text="@string/guestFacebook"
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"/>
     <Button android:id="@+id/homeGuestLogin"
-            android:text="@string/homeGuestMenuItemLogin"
+            android:text="@string/guestMenuItemLogin"
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
             android:onClick="startLoginActivity"/>

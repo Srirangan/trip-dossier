@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-  <item android:id="@+id/homeUserMenuItemNewTrip"
-        android:title="@string/homeUserMenuItemNewTrip"
+  <item android:id="@+id/userMenuItemTripCreate"
+        android:title="@string/userMenuItemTripCreate"
         android:icon="@drawable/icon_android_new"
         android:showAsAction="always"/>
 
-  <item android:id="@+id/homeUserMenuItemSettings"
+  <item android:id="@+id/userMenuItemSettings"
         android:title="@string/appMenuItemSettings"
         android:icon="@drawable/icon_android_settings"
         android:showAsAction="never"/>
 
-  <item android:id="@+id/homeUserMenuItemHelp"
+  <item android:id="@+id/userMenuItemHelp"
         android:title="@string/appMenuItemHelp"
         android:icon="@drawable/icon_android_help"
         android:showAsAction="never"/>

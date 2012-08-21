@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-  <item android:id="@+id/homeGuestMenuItemRegister"
-        android:title="@string/homeGuestMenuItemRegister"
+  <item android:id="@+id/guestMenuItemRegister"
+        android:title="@string/guestMenuItemRegister"
         android:icon="@drawable/icon_android_register"
         android:showAsAction="ifRoom"/>
 
-  <item android:id="@+id/homeGuestMenuItemLogin"
-        android:title="@string/homeGuestMenuItemLogin"
+  <item android:id="@+id/guestMenuItemLogin"
+        android:title="@string/guestMenuItemLogin"
         android:icon="@drawable/icon_android_login"
         android:showAsAction="ifRoom"/>
 
-  <item android:id="@+id/homeGuestMenuItemHelp"
+  <item android:id="@+id/guestMenuItemHelp"
         android:title="@string/appMenuItemHelp"
         android:icon="@drawable/icon_android_help"
         android:showAsAction="never"/>

@@ -9,11 +9,13 @@
   <string name="errorEmailInvalid">Invalid email</string>
   <string name="errorPasswordInvalid">Invalid password</string>
 
-  <string name="homeLabel">Trip Dossier</string>
-  <string name="homeUserMenuItemNewTrip">New Trip</string>
-  <string name="homeGuestMenuItemRegister">Signup for Trip Dossier</string>
-  <string name="homeGuestMenuItemLogin">Got an account? Login!</string>
-  <string name="homeGuestFacebook">or, Connect with Facebook</string>
+  <string name="guestLabel">Trip Dossier</string>
+  <string name="guestMenuItemRegister">Signup for Trip Dossier</string>
+  <string name="guestMenuItemLogin">Got an account? Login!</string>
+  <string name="guestFacebook">or, Connect with Facebook</string>
+
+  <string name="userLabel">Trip Dossier</string>
+  <string name="userMenuItemTripCreate">New Trip</string>
 
   <string name="registerLabel">Signup for Trip Dossier</string>
   <string name="registerInputEmailHint">Email</string>
@@ -26,5 +28,7 @@
   <string name="loginInputEmailHint">Email</string>
   <string name="loginInputPasswordHint">Password</string>
   <string name="loginSubmit">Submit</string>
+
+  <string name="tripCreateLabel">Add a new trip</string>
 
 </resources>
